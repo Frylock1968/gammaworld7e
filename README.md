@@ -21,12 +21,12 @@ EDIT 1/22/2026: Version 4.7. When the software is opened, it checks to see if it
 ***
 EDIT: 1/23/2026: Version 4.8.
 1.	Added the ability to load a saved character file in the PC list for initiative. This necessitated a change to the format of the character file, so all sample characters have been replaced. Characters created using prior versions won’t load properly but can be modified in Notepad to make them loadable. Just create a new character, look for the six added lines of text for HP, AC, FORT, REF, WILL, and INIT, copy those lines, then manually paste them into your existing character at the same spot. Then that character will load properly. For an example, see the sample lines below. You will add the six lines between the “Shield?” and “LMOH?” lines. Even if the numerical values are wrong, they will be corrected the next time you save the character because those values are recalculated at every save. Adding the lines even with bad data is simply a way to allow you to open a prior version character in version 4.8 (and beyond).
-"Shield?","0"
-"HP","35"
-"AC","18"
-"FORT","17"
-"REF","14"
-"WILL","13"
-"INIT","0"
-"LMOH?","0"
-2.	Provided examples of every type of weapon, but weapon descriptions can still be left blank or typed in by the user. When a random character is generated, a random description will be selected for weapons owned.
+   "Shield?","0"
+   "HP","35"
+   "AC","18"
+   "FORT","17"
+   "REF","14"
+   "WILL","13"
+   "INIT","0"
+   "LMOH?","0"
+3.	Provided examples of every type of weapon, but weapon descriptions can still be left blank or typed in by the user. When a random character is generated, a random description will be selected for weapons owned.
