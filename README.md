@@ -38,4 +38,4 @@ EDIT: 1/23/2026: Version 4.8.
    
    "LMOH?","0"
 
-3.	Provided examples of every type of weapon, but weapon descriptions can still be left blank or typed in by the user. When a random character is generated, a random description will be selected for weapons owned.
+2.	Provided examples of every type of weapon, but weapon descriptions can still be left blank or typed in by the user. When a random character is generated, a random description will be selected for weapons owned.
