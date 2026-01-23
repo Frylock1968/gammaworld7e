@@ -18,3 +18,15 @@ EDIT 1/19/2026: Version 4.5.
 EDIT 1/20/2026: Version 4.6. Character sheet now indicates the action required to use a power (e.g., standard, immediate interrupt).
 ***
 EDIT 1/22/2026: Version 4.7. When the software is opened, it checks to see if its installation folder has the subfolders Characters and Images. If so, nothing happens. If not, it creates them. The Characters folder is where it expects character files to be stored, but you may store them anywhere you want. On the other hand, the Images folder is mandatory. If you create a character file and pull the image from any other folder, the image won't be properly saved. Using these folders makes the software portable. That is, if you move the application file to another location, the images will work properly without resaving the character files. Accordingly, I've uploaded sample character and image files as well, including the character file, image file, and a PDF of the character sheet. That said, you'll have far more fun creating your own characters.
+***
+EDIT: 1/23/2026: Version 4.8.
+1.	Added the ability to load a saved character file in the PC list for initiative. This necessitated a change to the format of the character file, so all sample characters have been replaced. Existing characters won’t load but can be modified in Notepad to make them useable. Just create a new character, look for the six added lines of text for HP, AC, FORT, REF, WILL, and INIT, and manually type in those values. For an example, see the sample lines below. You will add the six lines between the “Shield?” and “LMOH?” lines. Even if the data is wrong, it will be corrected the next time you save the character. Adding the lines is simply a way to allow you to open a character with the old format.
+"Shield?","0"
+"HP","35"
+"AC","18"
+"FORT","17"
+"REF","14"
+"WILL","13"
+"INIT","0"
+"LMOH?","0"
+2.	Provided examples of every type of weapon, but weapon descriptions can still be left blank or typed in by the user. When a random character is generated, a random description will be used for weapons owned.
