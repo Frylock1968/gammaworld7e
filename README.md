@@ -39,3 +39,5 @@ EDIT: 1/23/2026: Version 4.8.
    "LMOH?","0"
 
 2.	Provided examples of every type of weapon, but weapon descriptions can still be left blank or typed in by the user. When a random character is generated, a random description will be selected for weapons owned.
+***
+EDIT 1/25/2026: Version 5. In GM Tools, rather than adding monsters one at a time on the fly, you can now load a pre-written encounter. The pre-written encounters are from every adventure published by Wizards of the Coast (or on their behalf). Hinderances (i.e., traps and hazards) aren't loaded because there are only five that have been published, and no more than one type appears in any given published encounter, so adding them manually is as easy as loading them as part of a pre-written encounter. For the next version, I'll be adding that functionality anyway because it will be necessary once I give the user the ability to pre-write their own encounters. For now, and as stated, pre-written encounters are only what was published by (or for) WotC.
